@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Cost</title>
 
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -34,8 +34,89 @@
         </div>
       </div>
     </nav>
+
+    <!-- HERO -->
+    <div class="jumbotron subs-jumbotron">
+      <h1 class="display-4">Hello, improvement!</h1>
+      <p class="lead">Start small. Try some easy substitutes for products you use everyday!</p>
+      <hr class="my-4">
+      <p>Peek below for some alternatives!</p>
+    </div>
+
+    <!-- SUGGESTIONS -->
+    <div id="accordion">
+      <h3>Explore some easy substitutes:</h3>
+
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="aboutBtn btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Toothpaste
+            </button>
+          </h5>
+        </div>
     
-    <script>
-    </script>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Try using a toothpaste that both creates less waste AND you can actually read the ingredients!
+          </div>
+          <p>Buy it here: <a href="https://www.lushusa.com/face/oral-care/">link</a></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="aboutBtn btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Deodorant
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Did you know that most deodorants cause breast cancer from the Alluminum in them? Try something without it!
+          </div>
+          <p>Buy it here: <a href="https://www.byrdie.com/best-natural-deodorants-for-women-4796458">link</a></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="aboutBtn btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Reusable Waterbottles
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Not only will carrying around a reusable waterbottle reduce waste, but it will encourage you to drink more water AND keep it colder longer
+          </div>
+          <p>Buy it here: <a href="https://www.nytimes.com/wirecutter/reviews/best-water-bottle/">link</a></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="aboutBtn btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Shampoo/Conditioner
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            Try shampoo and conditioner bars! They're suprisingly easy to use, have better ingredients (hello hair growth!), easy to travel with, reduce waste, and last longer!
+          </div>
+          <p>Buy it here: <a href="https://www.rd.com/article/best-shampoo-bars-conditioner-bars/">link</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+		<div class="footer p-5 text-white">
+			&copy; Danika Jaskulak-Gonzalez 2021
+		</div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

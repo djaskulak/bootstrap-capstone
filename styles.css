@@ -1,0 +1,62 @@
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;  
+  padding-bottom:200px;
+}
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("https://c.stocksy.com/a/hmN200/z9/568087.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
+
+.subs-jumbotron {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;  
+  padding-bottom:200px;
+}
+.subs-jumbotron:after {
+  content: "";
+  position: absolute;
+  background-image: url("https://www.kenan-flagler.unc.edu/wp-content/uploads/nmc-images/2020/07/Blog_iStock-1182815477-width776resizeonly1constrainaspectratio1quality80.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
+
+.resource-jumbotron {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;  
+  padding-bottom:200px;
+}
+.resource-jumbotron:after {
+  content: "";
+  position: absolute;
+  background-image: url("https://www.peta.org/wp-content/uploads/2021/02/rabbits-with-flowers-970x260.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
